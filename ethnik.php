@@ -85,6 +85,7 @@ final class Ethnik {
 	public function includes(){
 		include(sprintf("%s/includes/ethnik-db.php", dirname(__FILE__)));
 		include(sprintf("%s/includes/ethnik-functions.php", dirname(__FILE__)));
+		include(sprintf("%s/includes/ethnik-core.php", dirname(__FILE__)));
 	}
 	
 	public function css_js(){
