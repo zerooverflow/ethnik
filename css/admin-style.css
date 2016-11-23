@@ -1,0 +1,49 @@
+.ethnik-container {
+	padding-right:20px;	
+}
+
+#ethnik-group-form {
+	background: #EAEAEA;
+	padding: 10px;
+	display: table;
+}
+
+#ethnik-group-form input[type="text"],
+#ethnik-group-form textarea {
+	min-width: 425px;
+}
+
+#ethnik-group-form textarea{
+	min-height: 100px;
+}
+.ethnik-list {
+	border:1px solid #ccc;
+	background:#fff;
+	min-width:200px;
+	height:200px;
+	overflow-y: scroll;
+	}
+	
+.ethnik-list li {
+	padding:5px 10px 0;
+}
+.ethnik-remove.button,
+.ethnik-add.button{
+	width: 100%;
+	text-align: center;
+}
+
+.focusgroup
+{
+width: 150px;
+padding-right: 10px;
+}
+.ethnik-information{display: table;padding-bottom:30px;}
+.ethnik-information p {font-size: 16px;line-height:25px;}
+
+#wp-admin-bar-ethnik-group .group-icon{
+	font-family : dashicons;
+}
+#wp-admin-bar-ethnik-group .group-icon:before {
+    content: "\f110";
+}
